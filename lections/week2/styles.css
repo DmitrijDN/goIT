@@ -1,0 +1,26 @@
+span {
+	color: red;
+	font-size: 20px;
+	font-style: italic;
+}
+
+#blue-text {
+	color: blue;
+}
+
+
+.pink-text {
+	color: pink;
+}
+
+.green-text {
+	color: green;
+}
+
+#yellow {
+	color: yellow;
+}
+
+.bold-style {
+	font-weight: 900;
+}
