@@ -5,26 +5,31 @@
 	</head>
 	<body>
 	<style type="text/css">
-			.absolute-item {
-				position: absolute;
+			.fixed-item {
+				position: fixed;
 				width: 200px;
 				height: 200px;
-				background-color: orange;
-				z-index: 2;
+				background-color: yellow;
+				top: 0;
+				left: 0;
 			}
 
-			.another {
-				height: 250px;
-				width: 250px;
+			.stuff {
 				background-color: green;
-				position: absolute;
-				z-index: 1;
+				margin: 10px;
+				width: 300px;
+				height: 300px;
 			}
 	</style>	
 
-		<div class="absolute-item"></div>
+		<div class="fixed-item"></div>
 
-		<div class="another"></div>
-
+		<div class="stuff"></div>
+		<div class="stuff"></div>
+		<div class="stuff"></div>
+		<div class="stuff"></div>
+		<div class="stuff"></div>
+		<div class="stuff"></div>
+		<div class="stuff"></div>
 	</body>
 </html>
