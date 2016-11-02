@@ -5,24 +5,27 @@
 	</head>
 	<body>
 	<style type="text/css">
-		.first {
-			position: absolute;
-			background-color: blue;
-			width: 300px;
-			height: 250px;
+		.fixed-item {
+			position: fixed;
+			background-color: yellow;
+			height: 300px;
+			width: 250px;
 		}
 
-		.another {
-			width: 500px;
-			height: 500px;
-			margin: 10%;
-			background-color: orange;
+		.stuff {
+			height: 300px;
+			width: 300px;
+			background-color: green;
+			margin: 3% 0 3% 500px;
 		}
 	</style>
 
-	<div class="another">
-		<div class="first"></div>
-	</div>
+	<div class="fixed-item"></div>
+
+	<div class="stuff"></div>
+	<div class="stuff"></div>
+	<div class="stuff"></div>
+	<div class="stuff"></div>
 
 	</body>
 </html>
