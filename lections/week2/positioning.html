@@ -5,33 +5,26 @@
 	</head>
 	<body>
 	<style type="text/css">
-		#wrapper {
-			display: flex;
-			flex-direction: column;
-			height: 500px;
-		}
+			.absolute-item {
+				position: absolute;
+				width: 200px;
+				height: 200px;
+				background-color: orange;
+				z-index: 2;
+			}
 
-		.one {
-			flex: 1 0 0;
-			background-color: yellow;
-		}
+			.another {
+				height: 250px;
+				width: 250px;
+				background-color: green;
+				position: absolute;
+				z-index: 1;
+			}
+	</style>	
 
-		.two {
-			flex: 2 0 0;
-			background-color: blue;
-		}
+		<div class="absolute-item"></div>
 
-		.three {
-			flex: 3 0 0;
-			background-color: pink;
-		}
-	</style>
-
-	<div id="wrapper">
-		<div class="one"></div>
-		<div class="two"></div>
-		<div class="three"></div>
-	</div>
+		<div class="another"></div>
 
 	</body>
 </html>
