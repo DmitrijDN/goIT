@@ -5,18 +5,33 @@
 	</head>
 	<body>
 	<style type="text/css">
-		.first {
-			height: 200px;
-			width: 200px;
-			background-color: green;
-			display: inline-block;
-			margin: 10px;
+		#wrapper {
+			display: flex;
+			flex-direction: column;
+			height: 500px;
+		}
+
+		.one {
+			flex: 1 0 0;
+			background-color: yellow;
+		}
+
+		.two {
+			flex: 2 0 0;
+			background-color: blue;
+		}
+
+		.three {
+			flex: 3 0 0;
+			background-color: pink;
 		}
 	</style>
 
-	<div class="first"></div>
-	<div class="first"></div>
-	<div class="first"></div>
+	<div id="wrapper">
+		<div class="one"></div>
+		<div class="two"></div>
+		<div class="three"></div>
+	</div>
 
 	</body>
 </html>
